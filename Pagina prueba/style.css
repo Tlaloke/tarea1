@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: larger;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+#A{
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    
+}
+.btn{
+    width: 100px;
+    height: 50px;
+    color: rgb(2, 249, 249);
+    font-size: large;
+}
+.box{
+    height: 70px;
+    width: 100px;
+
+}
+.tarjetas{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+}
+.size{
+    width: 250px;
+    height: 250px;
+}
+#primero{
+    background-color: rgb(167, 248, 255);
+}
+#Fondo1{
+    width: 400px;
+    }
+#Fondo2{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 93px;
+    }
+p{
+    position: relative;
+    bottom: 90px;
+}
+button{
+    position: relative;
+    bottom: 50px;
+    font-size: medium;
+    color: cornflowerblue;
+}
+#segunda{
+    background-color: rgb(255, 173, 173);
+}
+#Fondo3{
+    width: 400px;
+    }
+#Fondo4{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 93px;
+}
+p{
+    position: relative;
+    bottom: 90px;
+}
+button{
+    position: relative;
+    bottom: 50px;
+    font-size: medium;
+    color: cornflowerblue;
+}
+#tercera{
+    background-color: rgb(173, 219, 5);
+}
+#Fondo5{
+    width: 400px;
+    }
+#Fondo6{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 93px;
+}
+p{
+    position: relative;
+    bottom: 90px;
+}
+button{
+    position: relative;
+    bottom: 50px;
+    font-size: medium;
+    color: cornflowerblue;
+}
+#cuarta{
+    background-color: rgb(136, 144, 254);
+}
+#Fondo7{
+    width: 400px;
+    }
+#Fondo8{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: relative;
+    bottom: 93px;
+}
+main{
+    display: flex;
+    justify-content: space-between;
+
+}
+.fot{
+    width: 10px;
+    height: 10px;
+}
+.redesociales{
+    width: 5%px;
+    height: 5%px;
+}
+.main-footer{
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    margin-top: 100px;
+}
+#yo{
+    width: 10%;
+    height: 10%;
+}
+#fa{
+    width: 10%;
+    height: 10%;
+}
+#so{
+    width: 10%;
+    height: 10%%;
+}
+#ins{
+    width: 10%;
+    height: 10%;
+}
+.footersection{
+    background-color: rgb(159, 255, 149);
+    font-size: larger;
+    justify-content: center;
+    bottom: 100px;
+}
+@media (max-width:480px){
+    header{
+        width: 500px;
+        height: 150px;
+        font-size: small;
+        color: aliceblue;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    nav{
+        width: 200px;
+    }
+    #A{
+        width: 80px;
+        height: 80px;
+    }
+    h1{
+        width: 200px;
+    }
+    ul{
+        flex-direction: column;
+        font-size: medium;
+    }
+    .btn{
+        font-size: medium;
+        text-decoration: double;
+        width: 20%;
+        height: 20%;
+        top: 1px;
+        text-align: center;
+    
+    }
+    body{
+        background-color: rgb(115, 183, 255);
+    }
+    main{
+        width: auto;
+        height: 2600px;
+        flex-wrap: wrap;
+        flex-direction: columns;
+        justify-content: center;
+    }
+    .tarjetas{
+        justify-content: space-between;
+        align-items: center;
+    }
+}
